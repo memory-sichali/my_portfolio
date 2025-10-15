@@ -18,7 +18,7 @@ body {
     padding: 10px;
    }
    img {
-    max-width: 100px;
+    max-width: 100%;
     height:auto;
    }
 }
@@ -120,6 +120,9 @@ ul {
   padding-left: 20px;
 }
 .about-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
   padding: 20px;
   max-width: 1000px;
   margin: 0 auto;
@@ -229,4 +232,5 @@ footer {
   background: #333;
   color: #fff;
 }
+
 
