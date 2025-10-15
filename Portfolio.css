@@ -9,13 +9,13 @@ body {
   line-height: 1.6;
   background: #f9f9f9;
   color: #333;
-  font-size: 18px;
+  font-size: 0.95em;
   overflow-x: hidden; 
 }
 
 section {
   padding: 60px 20px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -142,13 +142,13 @@ nav ul li a {
 }
 
 .hero .round-image {
-  width: 400px;
+  width: 200px;
   margin-bottom: 20px;
 }
 
 .round-image {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 60%;
   object-fit: cover;
 }
@@ -319,5 +319,6 @@ footer {
   background: #333;
   color: #fff;
 }
+
 
 
