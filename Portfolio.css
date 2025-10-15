@@ -15,7 +15,7 @@ body {
 
 section {
   padding: 60px 20px;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -27,8 +27,8 @@ main {
 
 header {
   background: #fff;
-  padding: 20px 40px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex; 
   justify-content: space-between;
   align-items: center;
@@ -64,7 +64,7 @@ nav ul li a {
 
 @media (max-width: 1024px) {
   main {
-    padding: 40px 30px; 
+    padding: 20px 30px; 
   }
 }
 
@@ -72,7 +72,7 @@ nav ul li a {
   header {
     flex-direction: column; 
     align-items: center;
-    width: auto;
+    width: 100%;
     padding: 15px 10px; 
   }
   
@@ -139,7 +139,7 @@ nav ul li a {
 }
 
 .hero .round-image {
-  width: 200px;
+  width: 300px;
   margin-bottom: 20px;
 }
 
@@ -207,7 +207,7 @@ ul {
   flex-wrap: wrap;
   flex: 1 1 300px;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -316,6 +316,7 @@ footer {
   background: #333;
   color: #fff;
 }
+
 
 
 
