@@ -36,7 +36,7 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -65,6 +65,53 @@ nav ul li a {
 @media (max-width: 1024px) {
   main {
     padding: 40px 30px; 
+  }
+   header {
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px; 
+    border-width: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: unset;
+  }
+  
+ main {
+        padding: 20px 10px;
+    }
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  nav ul li {
+    padding: 0; 
+    margin-left: 20px;  
+  }
+  
+  nav .profile-header {
+    text-align: center; 
+    margin-bottom: 10px; 
+  }
+  
+  nav .profile-header .name {
+    font-size: 30px;
+  }
+  nav .profile-header .title {
+    font-size: 16px;
   }
 }
 
@@ -115,6 +162,33 @@ nav ul li a {
   nav .profile-header .title {
     font-size: 16px;
   }
+  .hero {
+  text-align: center;
+  padding: 20px 80px;
+  background: #eaf4ff;
+}
+.hero .round-image .round-image {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .round-image {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.round-image {
+  width: 300px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
 }
 
 @media (max-width: 480px) {
@@ -137,6 +211,12 @@ nav ul li a {
   padding: 20px 80px;
   background: #eaf4ff;
 }
+.hero .round-image .round-image {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .hero .round-image {
   width: 300px;
@@ -148,6 +228,10 @@ nav ul li a {
   height: 400px;
   border-radius: 50%;
   object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .hero h1 {
